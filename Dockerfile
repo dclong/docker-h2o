@@ -17,3 +17,5 @@ RUN wget http://h2o-release.s3.amazonaws.com/h2o/rel-wheeler/3/${H2O}.zip -O /sc
 EXPOSE 54321
 
 COPY scripts/ /scripts/
+
+ENTRYPOINT ["/scripts/init.sh"]
