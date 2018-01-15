@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-java -jar /script/h2o/h2o.jar
+java -jar /scripts/h2o/h2o.jar
