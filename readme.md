@@ -11,6 +11,7 @@ H2O in Docker.
 ```
 docker run -d \
     --log-opt max-size=50m \
+    -p 54321:54321 \
     -e DOCKER_USER=`id -un` \
     -e DOCKER_USER_ID=`id -u` \
     -e DOCKER_PASSWORD=`id -un` \
