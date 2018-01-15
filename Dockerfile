@@ -14,4 +14,6 @@ RUN wget http://h2o-release.s3.amazonaws.com/h2o/rel-wheeler/3/${H2O}.zip -O /sc
     && rm /scripts/h2o.zip \
     && mv /scripts/${H2O}/ /scripts/h2o/
 
+EXPOSE 54321
+
 COPY scripts/ /scripts/
