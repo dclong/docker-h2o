@@ -1,6 +1,6 @@
 FROM dclong/jdk
 
-ARG version=3.16.0.3
+ARG version=3.18.0.5
 ARG H2O=h2o-${version}
 ARG JAR=/scripts/${H2O}
 
