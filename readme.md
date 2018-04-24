@@ -59,6 +59,7 @@ The working directory of H2O in the Docker container is `/wwwroot`.
 ```
 docker run -d \
     --log-opt max-size=50m \
+    --name h2o \
     -p 54321:54321 \
     -e DOCKER_USER=`id -un` \
     -e DOCKER_USER_ID=`id -u` \
