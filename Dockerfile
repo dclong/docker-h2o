@@ -5,8 +5,10 @@ RUN wget http://h2o-release.s3.amazonaws.com/h2o/rel-wolpert/7/h2o-3.18.0.7.zip 
     && rm /scripts/h2o.zip \
     && mv /scripts/h2o-?.*/ /scripts/h2o/
 
-EXPOSE 54321
+RUN mkdir /workdir && chmod 777 /workdir
 
 COPY scripts/ /scripts/
+
+EXPOSE 54321
 
 ENTRYPOINT ["/scripts/init.sh"]

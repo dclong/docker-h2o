@@ -55,7 +55,7 @@ Keep the default if you don't know what are the best to use.
     By default, it's the group ID of the current user on the host.
 
     
-The working directory of H2O in the Docker container is `/wwwroot`.
+The working directory of H2O in the Docker container is `/workdir`.
 ```
 docker run -d \
     --log-opt max-size=50m \
@@ -65,7 +65,7 @@ docker run -d \
     -e DOCKER_USER_ID=`id -u` \
     -e DOCKER_PASSWORD=`id -un` \
     -e DOCKER_GROUP_ID=`id -g` \
-    -v /wwwroot:/wwwroot \
+    -v /wwwroot:/workdir \
     dclong/h2o
 ```
 
