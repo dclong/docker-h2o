@@ -1,4 +1,4 @@
-# [dclong/h2o](https://hub.docker.com/r/dclong/h2o/)
+# dclong/h2o [@DockerHub](https://hub.docker.com/r/dclong/h2o/) | [@GitHub](https://github.com/dclong/docker-h2o)
 
 H2O in Docker. 
 
