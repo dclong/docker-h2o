@@ -9,6 +9,10 @@ Desktop Environment: None
 Remote Desktop: None  
 Additional: H2O AI framework
 
+## Prerequisite
+You need to [install Docker](http://www.legendu.net/en/blog/docker-installation/) before you use this Docker image.
+
+
 ## Usage in Linux/Unix
 
 ### Prerequisites
